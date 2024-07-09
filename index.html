@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Average Calculator</title>
+  </head>
+  <body class="center">
+    <div class="container">
+      
+      <h1>Average Calculator</h1>
+      <form>
+        
+      <label for="mark1">Course Mark 1:</label><br>
+      <input type="number" id="mark1" name="mark1"/><br>
+
+      <label for="mark2">Course Mark 2:</label><br>
+      <input type="number" id="mark2" name="mark2"/><br>
+      
+      <label for="mark3">Course Mark 3:</label><br>
+      <input type="number" id="mark3" name="mark3"/><br>
+      
+      <label for="mark4">Course Mark 4:</label><br>
+      <input type="number" id="mark4" name="mark4"/><br>
+      
+      <label for="mark5">Course Mark 5:</label><br>
+      <input type="number" id="mark5" name="mark5"/><br><br>
+      
+      <button onclick="calculateavg()" type="button">Calculate Average</button>
+      
+      </form>
+      <textarea id="average" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
